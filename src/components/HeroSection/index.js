@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Video from "../../videos/video.mp4";
-import { Button } from "../ButtonElement";
+import {NavBtn, NavBtnLink} from "../Navbar/NavbarElements";
 import {
   HeroContainer,
   HeroBg,
@@ -9,16 +9,15 @@ import {
   HeroH1,
   HeroP,
   HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
+  
 } from "./HeroElements";
 
 const HeroSection = () => {
-  const [hover, setHover] = useState(false);
+  //const [hover, setHover] = useState(false);
 
-  const onHover = () => {
-    setHover(!hover);
-  };
+  // const onHover = () => {
+  //   setHover(!hover);
+  // };
 
   return (
     <HeroContainer>
@@ -28,13 +27,13 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Home And Office Lighting Made Easy</HeroH1>
         <HeroP>
-          Sign up for a free estimate and receive $100 in credit towards your
+          Contact us for a free estimate and receive $100 in credit towards your
           build
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+        <NavBtn>
+              <NavBtnLink to="/signin">Contact Us</NavBtnLink>
+            </NavBtn>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
