@@ -50,7 +50,7 @@ const Footer = () => {
             <SocialLogo to="/" onClick={toggleHome}>Bowman Electric</SocialLogo>
             <WebsiteRights>
               Bowman Electric © {new Date().getFullYear()}
-              All Rights Reserved
+               All Rights Reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
