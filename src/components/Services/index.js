@@ -1,7 +1,7 @@
 import React from "react";
-import Icon1 from "../../images/Panel.jpeg";
-import Icon2 from "../../images/Troubleshoot.jpeg";
-import Icon3 from "../../images/Circuit.jpeg";
+import Icon1 from "../../images/laptop.jpg";
+import Icon2 from "../../images/laptop2.jpg";
+import Icon3 from "../../images/servergal.jpg";
 import {
   ServicesContainer,
   ServicesH1,
@@ -15,30 +15,27 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <ServicesH1>Our Services</ServicesH1>
+      <ServicesH1>Our Courses</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Panel Upgrades</ServicesH2>
+          <ServicesH2>Data Analytics</ServicesH2>
           <ServicesP>
-            Protect your home by upgrading your electrical panel. Your electical
-            panel is a vital piece to keeping your property safe and reliable.
+            Learn how to become a data analyst in as little as 12 weeks! Contact us to learn more!
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Troubleshooting</ServicesH2>
+          <ServicesH2>Advanced Power BI</ServicesH2>
           <ServicesP>
-            We troubleshoot circuits and all other electrical issues utilizing a
-            process that allows us to resolve issues quickly.
+            Learn how to convert data into visuals that reveal meaningful information to important decision makers.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Circuit Installation</ServicesH2>
+          <ServicesH2>Data Visuzalization</ServicesH2>
           <ServicesP>
-            We can connect to existing circuits in your house or add dedicated
-            ones for a variety of needs, such as a hot tub.
+            Learn how to get the most important information from your data from a variety of data sources.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

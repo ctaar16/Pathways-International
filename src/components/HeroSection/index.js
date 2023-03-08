@@ -1,5 +1,5 @@
 import React from "react";
-import Video from "../../videos/video.mp4";
+import Video from "../../videos/class.mp4";
 import {NavBtn, NavBtnLink} from "../Navbar/NavbarElements";
 import {
   HeroContainer,
@@ -25,10 +25,9 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4"></VideoBg>
       </HeroBg>
       <HeroContent>
-        <HeroH1>Home And Office Lighting Made Easy</HeroH1>
+        <HeroH1>Pathways International Power BI and Analytics</HeroH1>
         <HeroP>
-          Contact us for a free estimate and receive $100 in credit towards your
-          build
+          Learn how to become a Power BI and Analyst in as little as 12 weeks!
         </HeroP>
         <HeroBtnWrapper>
         <NavBtn>

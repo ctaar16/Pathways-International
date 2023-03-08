@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
+import logo from "../../images/logo.png";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavbarContainer,
   NavLogo,
+  Image,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -39,7 +41,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              Bowman Electric
+              <Image src={logo} />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -60,46 +62,46 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="discover"
+                  to="online"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-1}
+                  offset={-10}
                   activeClass="active"
                 >
-                  Discover
+                  Online
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="services"
+                  to="courses"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-1}
+                  offset={-10}
                   activeClass="active"
                 >
-                  Services
+                  Courses
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="lighting"
+                  to="career services"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-1}
+                  offset={-10}
                   activeClass="active"
                 >
-                  Lighting
+              Services
                 </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Email Us</NavBtnLink>
+              <NavBtnLink to="/signin">Contact Us</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
