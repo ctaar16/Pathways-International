@@ -11,10 +11,11 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   padding-top: 210px;
-  background: linear-gradient(
+  background: #0693e3;
+  /* linear-gradient(
     108deg,
     rgba(1, 147, 86, 1) 0%,
-    rgba(10, 201, 122, 1) 100%
+    rgba(10, 201, 122, 1) 100% */
   );
 `;
 
@@ -69,7 +70,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-  background: #01bf71;
+  background: #0693e3;
   padding: 16px 0;
   border: none;
   border-radius: 4px;
