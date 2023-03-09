@@ -5,7 +5,7 @@ export const InfoContainer = styled.div`
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
   @media screen and (max-width: 768px) {
-    padding:25px;
+    padding: 25px;
   }
 `;
 
@@ -76,7 +76,6 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
   max-width: 440px;
-  margin-bottom: px;
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
