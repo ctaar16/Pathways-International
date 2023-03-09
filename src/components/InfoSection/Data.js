@@ -43,7 +43,7 @@ export const homeObjThree = {
   topLine: "Graduate with a Portfolio",
   headline: "Our Career Services and Placement Program",
   description:
-    "Each student will graduate with a portfolio containing the projects they worked on during the course to showcase to future employers. This is one of the best tools to help land your next position.  By completing the class assignments and projects, each student graduates with a projects demonstrating their newly aquired skills and how you're able to apply them.",
+    "Each student will graduate with a portfolio containing the projects they worked on during the course to showcase to future employers. This is one of the best tools to help land your next position.  By completing the class assignments and projects, each student graduates with a portfolio demonstrating their newly aquired skills and how you're able to apply them.",
   //buttonLabel: "Contact Us",
   imgStart: true,
   img: require("../../images/servergal.jpg"),
