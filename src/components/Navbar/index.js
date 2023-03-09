@@ -83,7 +83,7 @@ const Navbar = ({ toggle }) => {
                   offset={-10}
                   activeClass="active"
                 >
-                  Courses
+                  Course
                 </NavLinks>
               </NavItem>
               <NavItem>
