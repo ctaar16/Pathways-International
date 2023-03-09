@@ -20,13 +20,13 @@ function ContactForm() {
       <FormWrap>
       <Form onSubmit={handleSubmit}>
       <Label htmlFor="email">
-        Contact US
+        Contact Us
       </Label>
       <FormInput
         id="email"
         type="email" 
         name="email"
-        placeholder='                 Enter Your Email Address Here'
+        placeholder='Enter Your Email Address Here'style={{alignItems:'center'}}
       />
       <ValidationError 
         prefix="Email" 
@@ -36,7 +36,7 @@ function ContactForm() {
       <FormInput
         id="message"
         name="message"
-        placeholder='                Enter Your Message Here'
+        placeholder= 'Enter Your Message Here' style={{alignItems:'center'}}
       />
       <ValidationError 
         prefix="Message" 

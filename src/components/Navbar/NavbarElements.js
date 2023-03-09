@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-background: ${({scrollNav}) => (scrollNav ? '#000000' : '#000000')};
+background: ${({scrollNav}) => (scrollNav ? '#fff' : '#fff')};
   height: 80px;
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #0693e3;
+  color: #2681c4;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -45,8 +45,7 @@ export const Image = styled.img`
   cursor: pointer;
   display: flex;
   align-items: center; */
-
-  width: 275px;
+  width: 190px;
 
 
 `;
@@ -84,7 +83,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #0693e3;
+  color: #2681c4;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -93,7 +92,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #2681c4;
   }
 `;
 
@@ -108,10 +107,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
-  background: #0693e3;
+  background: #2681c4;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: #fff;
   font-size: 16px;
   outline: none;
   cursor: pointer;

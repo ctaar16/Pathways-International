@@ -37,7 +37,7 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#01bf71" }}>
+      <IconContext.Provider value={{ color: "#2681c4" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
@@ -88,7 +88,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="career services"
+                  to="services"
                   smooth={true}
                   duration={500}
                   spy={true}
