@@ -24,7 +24,7 @@ export const ServicesWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
-  padding: 0 50px;
+  padding: 0 0px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1 fr 1fr;
@@ -56,15 +56,15 @@ export const ServicesCard = styled.div`
 `;
 
 export const ServicesIcon = styled.img`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
+  height: 250px;
+  width: 250px;
+  margin-bottom: 7px;
 `;
 
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
-  margin-bottom: 64px;
+  margin-bottom: 30px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;

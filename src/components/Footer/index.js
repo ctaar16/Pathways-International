@@ -48,16 +48,16 @@ const Footer = () => {
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
-                href="//https://www.facebook.com/PathwaysInternationalUS"
+                href="//www.facebook.com/PathwaysInternationalUS"
                 target="_blank"
                 aria-label="Facebook"
               >
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href="//https://www.instagram.com/pathwaysintus/">
+              <SocialIconLink href="//www.instagram.com/pathwaysintus/">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="//https://www.linkedin.com/company/76789291/admin/" target="_blank" aria-label="Linkedin">
+              <SocialIconLink href="//www.linkedin.com/company/76789291/admin/" target="_blank" aria-label="Linkedin">
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
