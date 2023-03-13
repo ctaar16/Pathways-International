@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
   min-height: 692px;
   position: fixed;
@@ -19,13 +18,25 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top:10%;
-  
+  margin-top: 10%;
+
   @media screen and (max-width: 480px) {
     height: 80%;
   }
 `;
 
+export const Form1 = styled.p`
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background: "#fff";
+  color: "#010101";
+
+  @media screen and (max-width: 480px) {
+    height: 80%; 
+    font-size: 14px;
+  }
+`;
 
 export const Form = styled.form`
   background: #010101;
@@ -63,6 +74,7 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
+  text-align: center;
 `;
 
 export const FormButton = styled.button`
@@ -74,4 +86,3 @@ export const FormButton = styled.button`
   font-size: 20px;
   cursor: pointer;
 `;
-

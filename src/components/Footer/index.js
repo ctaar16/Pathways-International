@@ -34,7 +34,8 @@ const Footer = () => {
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
               <FooterLink to="/">(720) 662-7454</FooterLink>
               <FooterLink to="/">Help@pathwaysinternational.com</FooterLink>
-              <FooterLink to="/">Denver, Colorado</FooterLink>
+              <FooterLink to="/">7887 East Belleview Ave Ste 1100 </FooterLink>
+              <FooterLink to="/">Denver, Colorado 80111</FooterLink>
             </FooterLinkItems>
             
           </FooterLinksWrapper>

@@ -7,12 +7,13 @@ import {
   Label,
   FormInput,
   FormButton,
+  Form1
 } from "../Signin/SigninElements";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xyyapgvq");
   if (state.succeeded) {
-      return <p>Thanks for emailing us! We will be in contact soon!</p>;
+      return <Container><Form1><p>Thanks for emailing us! We will be in contact soon!</p></Form1></Container>;
   }
   return (
     
@@ -26,13 +27,23 @@ function ContactForm() {
         id="email"
         type="email" 
         name="email"
-        placeholder='Enter Your Email Address Here'style={{alignItems:'center'}}
+        placeholder='Email Address'style={{alignItems:'center'}}
       />
       <ValidationError 
         prefix="Email" 
         field="email"
         errors={state.errors}
       />
+      <FormInput
+        id="message"
+        name="message"
+        placeholder= 'City and State' style={{alignItems:'center'}}
+      />
+      <FormInput
+      id="message"
+      name="message"
+      placeholder= 'Current Position' style={{alignItems:'center'}}
+    />
       <FormInput
         id="message"
         name="message"
