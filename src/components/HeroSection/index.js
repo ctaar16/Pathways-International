@@ -27,11 +27,11 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Pathways International Business Intelligence and Data Analytics</HeroH1>
         <HeroP>
-          Learn to master Business Analytics and become a Data Analyst in as little as 12 weeks with our FREE COURSE!
+          Learn to master Business Analytics and become a Data Analyst in as little as 12 weeks! Hurry, classes begin March 27th!
         </HeroP>
         <HeroBtnWrapper>
         <NavBtn>
-              <NavBtnLink to="/signin">Contact Us</NavBtnLink>
+              <NavBtnLink to="/signin">Contact Us To Sign Up</NavBtnLink>
             </NavBtn>
         </HeroBtnWrapper>
       </HeroContent>
